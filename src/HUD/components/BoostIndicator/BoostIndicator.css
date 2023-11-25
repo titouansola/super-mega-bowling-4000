@@ -1,0 +1,26 @@
+.boost-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50%;
+    pointer-events: none;
+}
+
+.boost-indicator.hidden {
+    opacity: 0;
+}
+
+.boost-indicator__track {
+    width: 5vw;
+    height: 5px;
+    background: #ffffff55;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.boost-indicator__progressbar {
+    width: 0;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+}

@@ -1,6 +1,5 @@
 export enum KeyboardNameEnum {
-  PUSH = 'PUSH',
-  RESET = 'RESET',
+  BOOST = 'BOOST',
   FORWARD = 'FORWARD',
   RIGHTWARD = 'RIGHTWARD',
   BACKWARD = 'BACKWARD',

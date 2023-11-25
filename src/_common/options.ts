@@ -2,7 +2,8 @@
 export const TRACK_WIDTH = 5;
 export const TRACK_HEIGHT = 2;
 export const TRACK_THICKNESS = 0.2;
-export const TRACK_LENGTH = 25; // = 200;
+export const TRACK_LENGTH = 200;
+export const TRACK_END_LENGTH = 25;
 // Player
 export const BALL_RADIUS = 0.5;
 export const PLAYER_BOOST_STRENGTH = -100 * Math.pow(BALL_RADIUS, 3);
@@ -13,6 +14,7 @@ export const PLAYER_POSITION: [number, number, number] = [
   BALL_RADIUS + 0.01,
   TRACK_LENGTH / 2 - 1,
 ];
+export const PLAYER_BOOST_COOLDOWN = 3000; // ms
 // Pins
 export const PIN_RADIUS = (TRACK_WIDTH / 5 - 0.5) / 2;
 export const PIN_HEIGHT = (3 * TRACK_HEIGHT) / 4;

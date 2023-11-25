@@ -6,3 +6,8 @@ body,
     overflow: hidden;
     height: 100%;
 }
+
+.hud-component {
+    position: absolute;
+    pointer-events: none;
+}
